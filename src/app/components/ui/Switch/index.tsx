@@ -1,0 +1,1 @@
+import { cn } from '@bem-react/classname';import './index.scss';const cnSwitch = cn('Switch');export const Switch = ({ children }: React.PropsWithChildren) => {  return <div className={cnSwitch()}>{children}</div>;};
